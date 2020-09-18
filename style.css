@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+.abt{
+    background-image:url(27097.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    background-image:url(29087.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(0, 217, 255, 0.781);
+    padding: 5px 20px;
+    border: 1px solid transparent(0, 217, 255, 0.781);
+    transition: 0.6s ease;
+    font-size: large;
+}
+ul li a:hover{
+    background-color: skyblue;
+    color: snow;
+}
+.logo img{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.loogo{
+    float: center;
+    width: 50px;
+    height: auto;
+    position: absolute;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.last{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btne{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: rgb(235, 135, 135);
+    color:rgb(255, 255, 213);
+}
+.btne:hover{
+    background-color:  rgb(255, 255, 213);
+    color: rgb(235, 135, 135);
+}
+.down{
+    letter-spacing: 5px;
+    color: rgb(0, 193, 252);
+    padding: 50PX;
+    position: absolute;
+}
+.jkl{
+    float: center;
+    right: 6px;
+    width: 6px;
+    height: auto
+}
